@@ -1,0 +1,34 @@
+body{
+    background-image: linear-gradient(to right, #f3904f, #3B4371);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.instruction{
+    display: flex;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    margin: 10px;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    /* margin-top: 30px; */
+}
+
+.words{
+    width: 500px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 20px 3px rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+}
